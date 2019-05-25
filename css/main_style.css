@@ -1,0 +1,215 @@
+* {box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;}
+
+a{color: black;}
+p{margin: 0 10%;}
+
+div{display: block;}
+
+
+/*top div and navigation bar*/
+
+    .container{
+        margin: 25px 80px;
+        margin-top: 30px;
+    }
+    .search-container{
+    float: right;
+    display: block;
+    
+    }
+    .search-container input{
+    height: 46px;
+    font-size: 20px;
+    width: 225px;
+}
+    .search-container button{
+    float: right;
+    border: 0px;
+    color: #fb3909;
+    height: 46px;
+    width: 43px;
+    background-color: #fb3909;
+}
+    .search-container button:hover{cursor: pointer;}
+    .search-container button img{
+    height: 20px;
+    width: 20px;
+
+}
+
+      /*NAVBAR*/
+            div#navbar 
+            {   /*remove the bullets and the margins and padding from the list*/
+                list-style-type: none;
+                margin: 0;
+                 
+                
+                
+            }
+            div#navbar ul{padding: 0px;}
+            div#navbar li
+            {
+                padding: 0px;
+                font-weight: bold;
+                display: inline-block;
+            }
+
+            div#navbar li a
+            {
+                color: black;
+                
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                     
+            } 
+            div#navbar li a:hover{color: #fb3909;}
+            /*!!!!! NAVBAR !!!!!!*/
+            /*!!!!! top div and navigation bar !!!!!!*/
+        
+
+
+
+
+
+            /*jumbotron*/
+
+            #jumbotron-container{
+                    position: relative;
+                    text-align: center;
+                    color: white;
+                    font-size: 50px;
+            }
+            #jumbotron-container img
+            {
+                width: 100%;
+                
+            }
+            #text-on-jimg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-family: 'Lobster', cursive;
+                transform: translate(-50%, -50%);
+                text-shadow:3px 3px 3px  #444;
+                
+            }
+            
+            /*!!!!!!!  jumbotron  !!!!!!!*/
+
+
+
+            /*con body*/
+            
+            h2 center{
+                 font-family: 'Lobster', cursive; 
+                 
+            }
+            hr{
+                width: 50%;
+                border-top: 1px solid #fb3909;
+                
+            }
+
+/*            .list-container{display: table;}*/
+            .book-box{
+                width:24%;
+                height: 25em;
+                background-color: #f4f4f4;
+                float: left;
+/*                display: block;*/
+                margin: 1% 1% 0% 0%;
+                padding: 2%;
+                
+            }
+            
+            .book-box  img{
+                width: 50%;  
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .book-box div{
+                text-align: center; 
+                display: block;
+                padding:1%;
+            }
+
+            .book-box div h3{
+                     font-family: 'Lobster', cursive;
+            }   
+            .book-box div h3:hover{
+                color: #fb3909;
+                 
+            }
+
+           
+            /*!!!!!!! con body !!!!!!*/
+
+
+
+/*      MAP  & ADD      */
+.main-foot-div{display: table;
+    width: 100%;}
+        .footer-div{
+            width:32.33%;
+/*            height: 21em;*/
+            float: left;
+            display: table-cell;
+            margin: 1% 1% 1% 0%;
+            padding 5%;
+            
+        }
+        .footer-div img{
+            width: 100%;
+            
+        }
+        .footer-div h4 u,.footer-div h4 u center{
+                font-family: 'Lobster', cursive;
+        }
+        
+        .footer-div input{
+            width: 60%;
+            height: 3em;
+            float: left;
+            margin-left: 10%;
+        }
+        .footer-div button{
+            height: 3em;
+            width: 20%;
+            color: #fb3909;
+            float: left;
+            margin-right: 10%;
+        }
+
+        .footer-div div a img{
+            width: 3em;    
+        }
+        
+        .footer-div div{
+            margin-top: 7em;    
+        }
+                
+        
+        
+        
+        
+
+/*      !!!!!!!!!!!!!!! MAP  & ADD        */
+
+/*           copy*/
+#copy{
+    margin: 1%;
+    height: 10px;
+}
+/*!!!!!!!!!!!!copy*/
+
+
+
+
+
+
+
+
+
